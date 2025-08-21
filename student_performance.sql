@@ -29,11 +29,11 @@ CREATE TABLE python_grades (
 
 
 INSERT INTO students (student_name, intake_year) VALUES
-('Alice U.', 2023), ('Brian K.', 2023), ('Clara M.', 2022),
-('David N.', 2024), ('Esther P.', 2022), ('Frank O.', 2023),
-('Grace T.', 2024), ('Henry L.', 2022), ('Irene C.', 2023),
-('James D.', 2022), ('Kevin R.', 2024), ('Linda S.', 2023),
-('Michael J.', 2022), ('Nina V.', 2023), ('Oscar W.', 2024);
+('Mary U.', 2023), ('Teddy K.', 2023), ('Bella M.', 2022),
+('Kevine N.', 2024), ('Esther P.', 2022), ('Frank O.', 2023),
+('Gael T.', 2024), ('Elizabeth L.', 2022), ('Irene C.', 2023),
+('James D.', 2022), ('Kredia R.', 2024), ('Lennie S.', 2023),
+('Mason J.', 2022), ('Harriet V.', 2023), ('Nila W.', 2024);
 
 -- Some students only in Linux, some only in Python, some in both
 INSERT INTO linux_grades (student_id, grade_obtained) VALUES
