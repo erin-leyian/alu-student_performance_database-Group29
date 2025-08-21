@@ -1,7 +1,6 @@
 -- ##############################################################
 -- Student Performance Database - ALU Rwanda
 -- Pre-Class Activity (MySQL)
--- ##############################################################
 
 CREATE DATABASE alu_student_performance;
 USE alu_student_performance;
@@ -28,9 +27,6 @@ CREATE TABLE python_grades (
     FOREIGN KEY (student_id) REFERENCES students(student_id)
 );
 
--- ##############################################################
-
--- ##############################################################
 
 INSERT INTO students (student_name, intake_year) VALUES
 ('Alice U.', 2023), ('Brian K.', 2023), ('Clara M.', 2022),
@@ -48,9 +44,6 @@ INSERT INTO python_grades (student_id, grade_obtained) VALUES
 (1, 72), (3, 80), (4, 60), (6, 40), (7, 95),
 (8, 50), (10, 67), (12, 84), (13, 73), (15, 92);
 
--- ##############################################################
-
--- ##############################################################
 
 -- Q1: Find students who scored less than 50% in the Linux course
 SELECT s.student_id, s.student_name, l.grade_obtained
